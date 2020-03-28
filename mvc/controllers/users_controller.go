@@ -36,3 +36,5 @@ func GetUser(resp http.ResponseWriter, req *http.Request) {
 	jsonValue, _ := json.Marshal(user)
 	resp.Write(jsonValue)
 }
+
+//
