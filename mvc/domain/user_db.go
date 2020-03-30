@@ -7,6 +7,7 @@ import (
 	"github.com/ta-taiyo/golang-microservice/mvc/utils"
 )
 
+// DB の変わり
 var users = map[int64]*User{
 	123: {Id: 123, FirstName: "Fede", LastName: "Leon", Email: "test@example.com"},
 }
